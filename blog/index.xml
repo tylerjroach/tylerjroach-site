@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Tyler Roach</title>
+    <link>http://tylerjroach.com/blog/</link>
+    <description>Recent content in Blogs on Tyler Roach</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Sep 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tylerjroach.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Reduce Runtime Permission Clutter (Headless Dialog Fragments!)</title>
+      <link>http://tylerjroach.com/blog/clean-runtime-permissions/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://tylerjroach.com/blog/clean-runtime-permissions/</guid>
+      <description>I know I’m late to the party implementing Android runtime permissions in the Stream app. We had our reasons for this, but now that Nougat has been released, its time we upgrade our targetSdkVersion to 24.
+I’m not a huge fan of the design for runtime permissions. It can quickly clutter your activity/fragment code as you have to handle multiple grant scenarios with proper messaging to the user. In order to combat this, I decided to contain nearly all aspects of permission management inside headless dialog fragments.</description>
+    </item>
+    
+  </channel>
+</rss>
